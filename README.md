@@ -1,58 +1,53 @@
-# Личный проект «Кэт энерджи»
 
-* Студент: [Anton Bogza](https://up.htmlacademy.ru/adaptive/30/user/170338).
-* Наставник: [Дарья Шестерина](https://htmlacademy.ru/profile/id221124).
+# Cat Energy
 
----
+**Cat Energy** is a web project developed as part of the "HTML and CSS: Adaptive Layout and Automation" course by [HTML Academy](https://htmlacademy.ru). The site is designed to be fully responsive, adapting to various screen sizes and devices.
 
-**Обратите внимание, что папка с вашими исходными файлами для работы над проектом — `source/`.**
+## Project Structure
 
-Полезный файл:
+- **Source Files**: All the main development files are located in the `source/` directory.
+- **Gulp Configuration**: The `gulpfile.js` contains automated tasks for building, optimizing, and running the project.
 
-- [Contributing.md](Contributing.md) — руководство по внесению изменений.
+## Getting Started
 
-_Не удаляйте и не обращайте внимание на файлы и папки:_<br>
-_`.github`, `.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `package.json`, `package-lock.json`._
+To get started with the project, follow the instructions below:
 
----
+### Prerequisites
 
-### Памятка
+Ensure that you have the following software installed:
 
-#### 1. Зарегистрируйтесь на Гитхабе
+- [Node.js](https://nodejs.org/)
+- [Gulp](https://gulpjs.com/)
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
+### Installation
 
-#### 2. Создайте форк
+1. **Clone the Repository**:
+   ```bash
+   git clone git@github.com:AvtRikki/cat-energy.git
+   ```
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd cat-energy
+   ```
+3. **Install Project Dependencies**:
+   ```bash
+   npm install
+   ```
 
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/170338-cat-energy-30) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
+### Running the Project
 
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808133-3a7ace00-a190-11e9-9d29-401b02036a9c.jpg">
+To start the project and open it in your default browser:
 
-Получится вот так:
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808135-3a7ace00-a190-11e9-9a8d-7390b3784c65.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку «Code» в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808136-3a7ace00-a190-11e9-884f-24621e62b29a.jpg">
-
-Клонировать репозиторий можно так:
-
-```
-git clone SSH-адрес_вашего_форка
+```bash
+npm start
 ```
 
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
+This command will run the project using Gulp, open it in your default browser, and watch for any changes to automatically reload the page.
 
-#### 4. Начинайте обучение!
+## Contributing
 
----
+Contributions are welcome! Please fork this repository and submit pull requests for any improvements or bug fixes.
 
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github-2.png"></a>
+## License
 
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Адаптивная вёрстка и автоматизация](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
-
-[check-image]: https://github.com/htmlacademy-adaptive/170338-cat-energy-30/workflows/Project%20check/badge.svg?branch=master
-[check-url]: https://github.com/htmlacademy-adaptive/170338-cat-energy-30/actions
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
